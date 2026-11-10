@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hemavarne Shankhar</title>
+<meta name="description" content="Dr. Hemavarne Shankhar, physician and postdoctoral research fellow at the Sadhguru Center for a Conscious Planet, BIDMC and Harvard Medical School.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap">
+<style>
+.switch{background:#FFF6E5;color:#5E4513;font:500 13px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;padding:.5rem 1rem;border-bottom:1px solid #EFDDB6}
+.switch a{color:#5E4513}
+.switch b{font-weight:700}
+.todo{display:inline-block;font:500 12.5px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:#7A5A1C;background:#FFF6E5;border:1px dashed #E0C48A;border-radius:4px;padding:.2rem .55rem}
+.todo::before{content:"+ "}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+img{max-width:100%}
+
+:root{--ink:#16191D;--text:#33383F;--muted:#6A717A;--line:#E4E6E9;--accent:#1F6F6B;--panel:#F5F6F7}
+body{margin:0;background:#fff;color:var(--text);font:17px/1.7 "Manrope",system-ui,sans-serif}
+a{color:var(--accent);text-underline-offset:3px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.96);z-index:5}
+header .in{max-width:1080px;margin:0 auto;padding:0 24px;height:68px;display:flex;align-items:center;justify-content:space-between;gap:1rem;position:relative}
+.logo{font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.logo span{color:var(--accent)}
+header nav{display:flex;gap:1.8rem}
+header nav a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500;padding:.3rem 0;border-bottom:2px solid transparent}
+header nav a:hover{color:var(--ink)}
+header nav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+.burger{display:none;background:none;border:0;font:600 .9rem "Manrope",sans-serif;color:var(--ink);cursor:pointer}
+main{max-width:1080px;margin:0 auto;padding:0 24px 3rem}
+.ptitle{font-weight:700;font-size:2.2rem;line-height:1.2;color:var(--ink);margin:3rem 0 1.6rem;letter-spacing:-.01em}
+section[data-page="home"] .ptitle{display:none}
+.hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:3.5rem;align-items:center;padding:3.5rem 0 3rem}
+.kick{font-size:.82rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 .6rem}
+.hello{font-size:clamp(2rem,4vw,2.7rem);font-weight:700;line-height:1.15;color:var(--ink);margin:0 0 1.2rem;letter-spacing:-.015em}
+main p{margin:0 0 1.05rem}
+.photo{aspect-ratio:4/5;background:var(--panel);border:1px solid var(--line);border-radius:6px;display:grid;place-items:center;text-align:center;color:#A3AAB2;font:300 4rem "Manrope",sans-serif}
+.photo small{display:block;margin-top:.4rem}
+.strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip div{padding:1.4rem 1.2rem 1.4rem 0;font-size:.95rem;color:var(--ink);font-weight:600}
+.strip div span{display:block;font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:3rem;padding:3rem 0 1rem}
+.cols h2{font-size:1.25rem;font-weight:700;color:var(--ink);margin:0 0 .6rem}
+.go{font-weight:600;text-decoration:none}
+.go:hover{text-decoration:underline}
+.intro{font-size:1.05rem;max-width:44rem}
+h2.sub{font-size:1.35rem;font-weight:700;color:var(--ink);margin:2.6rem 0 .8rem}
+.item{border-top:1px solid var(--line);padding:1.3rem 0 .4rem;max-width:48rem}
+.item h3{font-size:1.15rem;font-weight:700;line-height:1.4;color:var(--ink);margin:.15rem 0 .4rem}
+.item h3 a{color:var(--ink);text-decoration:none}
+.item h3 a:hover{color:var(--accent)}
+.label{font-size:.76rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0!important}
+.authors{color:var(--muted);font-size:.93rem}
+.authors b{color:var(--ink)}
+.more{font-weight:600;text-decoration:none}
+.bg{list-style:none;margin:0 0 1.2rem;padding:0;max-width:48rem}
+.bg li{display:grid;grid-template-columns:10rem minmax(0,1fr);gap:1.2rem;padding:1.1rem 0;border-top:1px solid var(--line)}
+.bg .when{font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);padding-top:.2rem}
+.bg b{display:block;color:var(--ink)}
+.bg span{color:var(--muted)}
+.contact{display:grid;grid-template-columns:10rem minmax(0,1fr);gap:.9rem 1.2rem;max-width:40rem;margin:1.4rem 0 0}
+.contact dt{font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:.2rem}
+.contact dd{margin:0}
+footer{border-top:1px solid var(--line)}
+footer .in{max-width:1080px;margin:0 auto;padding:1.6rem 24px 2.4rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;color:var(--muted);font-size:.88rem}
+@media (max-width:820px){
+  .burger{display:block}
+  header nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;gap:0;padding:.4rem 24px 1rem}
+  header nav.open{display:flex}
+  header nav a{padding:.7rem 0;border-bottom:1px solid var(--line)}
+  .hero{grid-template-columns:1fr;gap:1.8rem;padding-top:2rem}
+  .photo{width:170px;order:-1;font-size:2.6rem}
+  .strip{grid-template-columns:1fr 1fr}
+  .cols{grid-template-columns:1fr;gap:2rem}
+  .bg li,.contact{grid-template-columns:1fr;gap:.2rem}
+  .contact dd{margin-bottom:.8rem}
+}
+</style>
+</head><body><div class="switch" role="note"><span>Draft for Hema · style options:</span> <a href="v1">V1 Classic</a> · <a href="v2">V2 Warm</a> · <b>V3 Modern</b> · <a href="./">All options</a></div>
+<header><div class="in">
+  <a class="logo" href="#home">Hemavarne <span>Shankhar</span></a>
+  <button class="burger" aria-expanded="false">Menu</button>
+  <nav data-nav aria-label="Pages"><a href="#home">Home</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#background">Background</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main><section data-page="home" class="pg "><h1 class="ptitle">Home</h1><div class="hero"><div>
+<p class="kick">Physician · Early-career researcher</p><p class="hello">Hi, I'm Hemavarne.</p>
+<p>I'm a physician and a postdoctoral research fellow at the <a href="https://research.bidmc.org/bala-subramaniam/staff" target="_blank" rel="noopener">Sadhguru Center for a Conscious Planet</a> at Beth Israel Deaconess Medical Center and Harvard Medical School in Boston.</p>
+<p>I'm interested in how simple yogic practices, offered through digital tools, might support the mental health of young adults, and in what inner wellbeing could mean for everyday clinical care.</p>
+<p>Before moving into research, I worked as a Residential Medical Officer at MGM Healthcare in Chennai, after earning my medical degree from The Tamil Nadu Dr. M.G.R. Medical University. My time on the wards is where many of my questions began.</p>
+<p>I'm early in my research journey and always glad to learn from, and work with, others who share these questions.</p>
+<p><span class="todo">a line or two in her own words, and something about life outside work</span></p>
+</div>
+<div class="photo" aria-label="Photo placeholder"><div>HS<small><span class="todo">photo</span></small></div></div></div>
+<div class="strip"><div><span>Interest</span>Digital mental health</div><div><span>Interest</span>Yoga and meditation research</div><div><span>Interest</span>Young adult wellbeing</div><div><span>Interest</span>Consciousness in medicine</div></div>
+<div class="cols">
+  <div><h2>Research</h2><p>Helping study whether short, digital yogic practices can support young adults' mental health.</p><a class="go" href="#research">About my research →</a></div>
+  <div><h2>Publications &amp; talks</h2><p>A 2026 paper in <i>BMC Psychology</i> on the Miracle of Mind meditation, and workshops on yoga and resilience.</p><a class="go" href="#publications">See my work →</a></div>
+</div></section><section data-page="research" class="pg " hidden><h1 class="ptitle">Research</h1>
+<p class="intro">My work sits where clinical medicine meets contemplative practice. With my colleagues at the Center, I help study whether short, accessible practices can make a measurable difference to how people feel.</p>
+<div class="item">
+  <p class="label">Current work</p>
+  <h3>Digital yogic tools for young adults</h3>
+  <p>Exploring whether brief, app-delivered yogic practices can support the mental health of young adults in different parts of the world.</p>
+</div>
+<div class="item">
+  <p class="label">Team study</p>
+  <h3>Miracle of Mind</h3>
+  <p>Contributing to the Center's research on a free, 7-minute guided meditation, and sharing what we are learning with healthcare workers.</p>
+</div>
+<div class="item">
+  <p class="label">A question I keep returning to</p>
+  <h3>Wellbeing in clinical care</h3>
+  <p>As a former hospital physician, I'm curious how attention to inner wellbeing could improve both clinical outcomes and the experience of being a patient.</p>
+  <p><span class="todo">studies she is currently part of, and her role in each</span></p>
+</div>
+</section><section data-page="publications" class="pg " hidden><h1 class="ptitle">Publications &amp; talks</h1>
+<h2 class="sub">Papers</h2>
+<div class="item">
+  <p class="label">BMC Psychology · 2026</p>
+  <h3><a href="https://doi.org/10.1186/s40359-026-05696-8" target="_blank" rel="noopener">Immediate changes following a single 7-minute free digital Miracle of Mind meditation: a single-arm feasibility study</a></h3>
+  <p class="authors">Rajashekar D, Malipeddi S, Agrawal J, <b>Shankar H</b>, Kundury K, Mehta A, Sharma P, Laureys S, Subramaniam B.</p>
+  <p><a class="more" href="https://doi.org/10.1186/s40359-026-05696-8" target="_blank" rel="noopener">Read the paper ↗</a></p>
+</div>
+<p><span class="todo">other papers, posters or work in progress</span></p>
+<h2 class="sub">Talks &amp; workshops</h2>
+<div class="item">
+  <p class="label">Thrive26</p>
+  <h3>Resilient and Thriving with Yoga</h3>
+  <p>A session co-led with Vasu Prudhivi and Dr. Sepideh Hariri.</p>
+  <p><span class="todo">date and a short description</span></p>
+</div>
+<div class="item">
+  <p class="label">Sadhguru Center for a Conscious Planet</p>
+  <h3>An overview of the Miracle of Mind research</h3>
+  <p>Presented to healthcare workers.</p>
+</div>
+</section><section data-page="background" class="pg " hidden><h1 class="ptitle">Background</h1><ol class="bg"><li><span class="when">2025 to present</span><div><b>Postdoctoral Research Fellow</b><span>Sadhguru Center for a Conscious Planet, Beth Israel Deaconess Medical Center and Harvard Medical School, Boston</span></div></li><li><span class="when">Chennai</span><div><b>Residential Medical Officer</b><span>MGM Healthcare</span></div></li><li><span class="when">MBBS</span><div><b>Bachelor of Medicine, Bachelor of Surgery</b><span>The Tamil Nadu Dr. M.G.R. Medical University</span></div></li></ol><p><span class="todo">years for each step, and a downloadable CV</span></p></section><section data-page="contact" class="pg " hidden><h1 class="ptitle">Contact</h1>
+<p class="intro">I'd be glad to hear from you, whether about research, a possible collaboration, or a talk.</p>
+<dl class="contact">
+  <dt>Email</dt><dd><span class="todo">email address</span></dd>
+  <dt>Affiliation</dt><dd><a href="https://research.bidmc.org/bala-subramaniam/staff" target="_blank" rel="noopener">Sadhguru Center team page ↗</a></dd>
+  <dt>LinkedIn</dt><dd><span class="todo">LinkedIn</span></dd>
+  <dt>Google Scholar</dt><dd><span class="todo">Google Scholar</span></dd>
+</dl>
+</section></main>
+<footer><div class="in"><span>© 2026 Hemavarne Shankhar</span><span>Boston, Massachusetts</span></div></footer>
+<script>
+(function(){
+  var pages={}; document.querySelectorAll("[data-page]").forEach(function(p){pages[p.dataset.page]=p});
+  var links=document.querySelectorAll("[data-nav] a");
+  var menu=document.querySelector("[data-nav]"), burger=document.querySelector(".burger"), cur=null;
+  function show(k){
+    if(!pages[k]) k="home";
+    if(k!==cur){
+      Object.keys(pages).forEach(function(x){pages[x].hidden=(x!==k)});
+      links.forEach(function(a){ if(a.getAttribute("href")==="#"+k) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+      cur=k; window.scrollTo(0,0);
+    }
+    if(menu) menu.classList.remove("open"); if(burger) burger.setAttribute("aria-expanded","false");
+  }
+  document.addEventListener("click",function(e){
+    var a=e.target.closest('a[href^="#"]'); if(!a) return;
+    var k=a.getAttribute("href").slice(1); if(!pages[k]) return;
+    e.preventDefault(); try{history.pushState(null,"","#"+k)}catch(_){}
+    show(k);
+  });
+  window.addEventListener("popstate",function(){show(location.hash.slice(1))});
+  window.addEventListener("hashchange",function(){show(location.hash.slice(1))});
+  if(burger) burger.addEventListener("click",function(){var o=menu.classList.toggle("open");burger.setAttribute("aria-expanded",o?"true":"false")});
+  show(location.hash.slice(1)||"home");
+})();
+</script>
+</body></html>
